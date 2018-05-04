@@ -1,0 +1,91 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.505687,
+			13.299214]
+		},
+		"properties": {
+			"title": "Institut Charlottenburg",
+			"data": {
+				"id": "1",
+				"adresse": "Windscheidstraße 18, 10627, Berlin, Deutschland",
+				"info": "Berufliche Weiterbildung, Erstausbildung und Umschulung",
+				"tel": "+49 30 327991-31",
+				"fax": "+49 30 327991-33",
+				"email": "charlottenburg@cimdata.de",
+				"latitude": "52.505687",
+				"longitude": "13.299214",
+				"rss_name": "Institut Charlottenburg"
+			}
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.531659,
+			13.426057]
+		},
+		"properties": {
+			"title": "Institut Prenzlauer Berg",
+			"data": {
+				"id": "2",
+				"adresse": "Immanuelkirchstraße 14a/b, 10405, Berlin, Deutschland",
+				"info": "Berufliche Weiterbildung",
+				"tel": "+49 30 8507263-31",
+				"fax": "+49 30 8507263-33",
+				"email": "prenzlauerberg@cimdata.de",
+				"latitude": "52.531659",
+				"longitude": "13.426057",
+				"rss_name": "Institut Prenzlauer Berg"	
+			}
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.524823,
+			13.480051]
+		},
+		"properties": {
+			"title": "Institut Lichtenberg",
+			"data": {
+				"id": "3",
+				"adresse": "Möllendorffstraße 52, 10367, Berlin, Deutschland",
+				"info": "Berufliche Weiterbildung",
+				"tel": "+49 30 841836-28",
+				"fax": "+49 30 841836-29",
+				"email": "lichtenberg@cimdata.de",
+				"latitude": "52.524823",
+				"longitude": "13.480051",
+				"rss_name": "Institut Lichtenberg"	
+			}
+		}
+	},
+	{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [52.475524,
+			13.440046]
+		},
+		"properties": {
+			"title": "Institut Neukölln",
+			"data": {
+				"id": "4",
+				"adresse": "Karl-Marx-Straße 163, 12043, Berlin, Deutschland",
+				"info": "Berufliche Weiterbildung",
+				"tel": "+49 30 684094-11",
+				"fax": "+49 30 684094-22",
+				"email": "neukoelln@cimdata.de",
+				"latitude": "52.475524",
+				"longitude": "13.440046",
+				"rss_name": "Institut Lichtenberg"
+			}
+		}
+	}]
+}

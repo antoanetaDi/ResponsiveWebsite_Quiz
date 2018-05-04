@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Projekt JS/HTML Advanced</title>
+    <link href="external/jquery-ui/jquery-ui.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="leaflet/Control.FullScreen.css" />
+
+    <script src="leaflet/leaflet.js"></script>
+    <script src="leaflet/Control.FullScreen.js"></script>
+    <script src="leaflet/leaflet.ajax.min.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header" class="item1">
+            <div>
+                <a href="index.html">
+                    <img id="logo" src="css/img/cimdata_logo2.gif" alt="cimdata" height="40">
+                </a>
+            </div>
+
+        </header>
+
+        <div id="menu" class="item2">
+            <div class="topnav" id="myTopnav">
+                <a href="#home" id="homeID" class="active">Home</a>
+                <a href="#details" id="detailsID">Kursdetails</a>
+                <div class="dropdown">
+                    <button class="dropbtn">QUIZ
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#" id="quiz-html">HTML 5</a>
+                        <a href="#" id="quiz-jquery">jQuery</a>
+                        <a href="#" id="quiz-css">CSS 3</a>
+                    </div>
+                </div>
+                <a href="#dokumentation" id="dokumentID">Dokumentation</a>
+                <a href="#contact" id="contactID">Contact</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </div>
+
+        <div class="item6"></div>
+        <div id="content" class="item3">
+            <div id="homeinfo">
+                <h2 class="title">HTML5 / CSS3 / JavaScript Advanced Kurs</h2>
+                <p>
+                    <b>Kursanbieter: </b>cimdata Bildungsakademie GmbH</p>
+                <p>
+                    <b>Dauer:</b> 4 Wochen</p>
+                <p>
+                    <b>Kursart:</b> Präsenzunterricht im virtual classroom (cimlive)</p>
+                <p>
+                    <b>Abschluss:</b> cimdata - Zertifikat</p>
+                <p>
+                    <b>Starttermine:</b> 04.06.2018 | 13.08.2018 | 08.10.2018</p>
+
+                <!-- <p>Kenntnisse in der Auszeichnungssprache HTML5 sind für Webdesigner und Multimedia Developer heute unerlässlich.
+                        In der Weiterbildung für Fortgeschrittene Webentwicklung – HTML5/CSS3/JavaScript Aufbaukurs werden die
+                        Konzepte von HTML5 im Zusammenhang mit den zugrunde liegenden Technologien sowie deren Verwendung und
+                        Einsatzmöglichkeiten vermittelt. Neben der Entwicklung von Modulen für Webseiten werden Grundlagen für
+                        die Entwicklung von Web-Apps für mobile Geräte vermittelt und Grundlagen für die Game-Entwicklung mit
+                        Canvas gelegt. Die Weiterbildung baut auf dem Grundlagenkurs Webentwicklung – HTML5/CSS3 Grundkurs sowie
+                        Webentwicklung – JavaScript auf.</p> -->
+                <p>
+                    <b>Schwerpunkte:</b>
+                    <ul id="infoliste">
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> HTML5/JS Canvas API
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Objektorientierte Programmierung/Vererbung (OOP)
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Objektorientierte Spielentwicklung mit Canvas, Spritesheets
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Responsive Webdesign, mobile Websites, jQuery Mobile
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Geolocation, Maps mit Google API
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Open Street Map/Leaflet API
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Geolocation, Maps mit Google API
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Ajax Technik mit jQuery
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> SVG Grafiken
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Verarbeitung von CSV und JSON
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Daten Datenvisualisierung über Charts, Diagramme, dynamische Tabellen
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Steuerung von Audio und Video über JS
+                        </li>
+                        <li>
+                            <span class="ui-icon ui-icon-caret-1-e"></span> Performante JS-Programmierung
+                        </li>
+                    </ul>
+                </p>
+                <p>Ihr erlerntes Wissen werden Sie in praktischen Projekten, Übungen oder Fallstudien mit fachlicher Unterstützung
+                    anwenden.
+                </p>
+            </div>
+        </div>
+
+        <div class="item4"></div>
+
+        <footer class="item5">
+            Copyright &copy; Antoaneta Dishlieva | cimdata Bildungsakademie GmbH
+        </footer>
+
+    </div>
+
+    <script src="external/jquery/jquery.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="external/jquery-ui/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/fragen.js"></script>
+    <script src="js/auswertung.js"></script>
+
+</body>
+
+</html>

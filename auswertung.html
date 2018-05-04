@@ -1,0 +1,236 @@
+<div id="auswertung">
+	<div id="container">
+		<!-- Textauswertung -->
+		<div id="daten">
+			<h3 id="gruss">&nbsp;</h3>
+			<h4 id="botschaft">&nbsp;</h4>
+			<h4 id="auswertungen">&nbsp;</h4>
+			<h4 id="zeit">&nbsp;</h4>
+		</div>
+
+		<!-- für das Diagramm Einzelwertung -->
+		<div id="chart1">
+			<canvas id="pie" width="100" height="100">
+			</canvas>
+		</div>
+	</div>
+
+	<div id="tabelle">
+	</div>
+	<!-- Für die Tabellendarstellung aller Teilnehmer-->
+	<div class="f_s">
+		<button id="teilnehmer" class="teilnehmer">Alle Ergebnisse!</button>
+	</div>
+
+
+	<!-- Dialogbox für jede Frage-->
+	<div id='dialog1' class='frage-dialog'>
+		<h4>Das Element &lt;canvas&gt; ist nur ____________ für Grafiken.</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> eine Komponente</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>ein Container</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> ein Attribut</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> eine Methode</p>
+	</div>
+	<div id='dialog2' class='frage-dialog'>
+		<h4>Canvas ist in der Lage mit Hilfe von ________ 2D Grafiken zu zeichnen.</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> XML</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> HTML</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>Java Script</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> XHTML</p>
+	</div>
+	<div id='dialog3' class='frage-dialog'>
+		<h4>Was ist das richtige HTML-Tag, um eine Hintergrundfarbe hinzuzufügen?</h4>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>&lt;body background = ”yellow”&gt;</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> &lt;background&gt; yellow &lt;backgound&gt;</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> &lt;bold style = ”background-color: white”&gt;</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> keine von diesen</p>
+	</div>
+	<div id='dialog4' class='frage-dialog'>
+		<h4>Welches vormals populäre Element ist in HTML5 nicht länger vorhanden?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> table</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b></b>frame</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> body</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> footer</p>
+	</div>
+	<div id='dialog5' class='frage-dialog'>
+		<h4>HTML5 zeichnet sich dadurch aus, dass es sich selbst erweitern kann. Unter welcher Bezeichnung ist diese Fähigkeit bekannt?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> Microdata</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b></b>Custom Elements</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> jQuery</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> Ajax</p>
+	</div>
+
+
+
+	<div id='dialog6' class='dialog'>
+		<h4>Welche jQuery-Methode wird verwendet, um ein Element kopieren zu können?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> .copy()</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>.clone()</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> .coping()</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> keine von diesen</p>
+	</div>
+	<div id='dialog7' class='dialog'>
+		<h4>Die Bibliothek jQuery ist eine ________ Datei.</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> .html</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> .XML</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>.js</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> .lib</p>
+	</div>
+	<div id='dialog8' class='dialog'>
+		<h4>Welche Methode wird benutzt, um eine Funktion auszuführen, nachdem das Dokument geladen wurde?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span>$(document).onload(function(){});</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b> $(document).ready(function(){});</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> $(document).load(function(){});</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> $(document).ready();</p>
+	</div>
+	<div id='dialog9' class='dialog'>
+		<h4>Was ist der korrekte jQuery-Code, um die Hintergrundfarbe aller p Elemente rot zu setzen?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> "$('p').layout('background-color','red');</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>$('p').css('background-color','red');</b>
+		</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> $('p').style('background-color','red');</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> $('p').manipulate('background-color','red');</p>
+	</div>
+	<div id='dialog10' class='dialog'>
+		<h4>Welche jQuery-Methode wird zum Ausblenden ausgewählter Elemente verwendet?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> display(none)</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> hidden()</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> visible(false)</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>hide()</b>
+		</p>
+	</div>
+
+	<div id='dialog11' class='dialog'>
+		<h4>CSS 3 bietet jede Menge neuer Selektoren. Welcher folgender Selektoren ist ungültig?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> a ~ strong</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> ul:nth-child(2n+0)</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> p[class^='wahr']</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>p &lt; strong</b>
+		</p>
+	</div>
+	<div id='dialog12' class='dialog'>
+		<h4>'top' positioniert ein HTML-Element von oben. Mit welchem Wert für position funktioniert top nicht?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> fixed</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> relative</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> absolute</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>static</b>
+		</p>
+	</div>
+	<div id='dialog13' class='dialog'>
+		<h4>Was ist keine gültige Schreibweise für die Farbe Weiß?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> rgba(255,255,255,1)</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> white</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> #FFF</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>#ff</b>
+		</p>
+	</div>
+	<div id='dialog14' class='dialog'>
+		<h4>Die Eigenschaft display hat seit CSS 3 neue Werte. Welcher ist hinzugekommen?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> columns</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> table-cell</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> grid-row</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>inline-flex</b>
+		</p>
+	</div>
+	<div id='dialog15' class='dialog'>
+		<h4>Was ist nicht das gleiche wie margin: 10px?</h4>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> margin: 10px 10px;</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> margin: 10px 10px 10px;</p>
+		<p>
+			<span class="ui-icon ui-icon-radio-off"></span> margin: 10px 10px 10px 10px;</p>
+		<p>
+			<span class="ui-icon ui-icon-check"></span>
+			<b>margin: 10;</b>
+		</p>
+	</div>
+
+
+
+	<div id="chart2">
+		<canvas id="bar" width="400" height="400">
+		</canvas>
+	</div>
+
+
+
+</div>

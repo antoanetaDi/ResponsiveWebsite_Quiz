@@ -1,0 +1,24 @@
+{
+	"html": {
+		"0":["1. Das Element <canvas> ist nur ________ für Grafiken." , "eine Komponente","ein Container", "ein Attribut", "eine Methode"],
+		"1":["2. Canvas ist in der Lage mit Hilfe von ________ 2D Grafiken zu zeichnen." , "XML","HTML", "Java Script", "XHTML"],
+		"2":["3. Was ist das richtige HTML-Tag, um eine Hintergrundfarbe hinzuzufügen?", "<body background=”yellow”>","<background> yellow <backgound>", "<bold style=”background-color:white”>", "keine von diesen"],
+		"3":["4. Welches vormals populäre Element ist in HTML5 nicht länger vorhanden?" , "table","frame", "body", "footer"],
+		"4":["5. HTML5 zeichnet sich dadurch aus, dass es sich selbst erweitern kann. Unter welcher Bezeichnung ist diese Fähigkeit bekannt?","Microdata","Custom Elements", "jQuery", "Ajax"] 
+	},
+	"jquery": {
+		"0":["1. Welche jQuery-Methode wird verwendet, um ein Element kopieren zu können?" , ".copy()",".clone()", ".coping()", "keine von diesen"],
+		"1":["2. Die Bibliothek jQuery ist eine ________ Datei." , ".html",".XML", ".js", ".lib"],
+		"2":["3. Welche Methode wird benutzt, um eine Funktion auszuführen, nachdem das Dokument geladen wurde?", "$(document).onload(function(){});","$(document).ready(function(){});", "$(document).load(function(){});", "$(document).ready();"],
+		"3":["4. Was ist der korrekte jQuery-Code, um die Hintergrundfarbe aller p Elemente rot zu setzen?" , "$('p').layout('background-color','red');","$('p').css('background-color','red');", "$('p').style('background-color','red');", "$('p').manipulate('background-color','red');"],
+		"4":["5. Welche jQuery-Methode wird zum Ausblenden ausgewählter Elemente verwendet?","display(none)","hidden()", "visible(false)", "hide()"] 
+	},
+	"css": {
+		"0":["1. CSS 3 bietet jede Menge neuer Selektoren. Welcher folgender Selektoren ist ungültig?" , "a ~ strong","ul:nth-child(2n+0)", "p[class^='wahr']", "p < strong"],
+		"1":["2. top positioniert ein HTML-Element von oben. Mit welchem Wert für position funktioniert top nicht?" , "fixed","relative", "absolute", "static"],
+		"2":["3. Was ist keine gültige Schreibweise für die Farbe Weiß?", "rgba(255,255,255,1)","white", "#FFF", "#ff"],
+		"3":["4. Die Eigenschaft display hat seit CSS 3 neue Werte. Welcher ist hinzugekommen?" , "columns","table-cell", "grid-row", "inline-flex"],
+		"4":["5. Was ist nicht das gleiche wie margin: 10px?", "margin: 10px 10px","margin: 10px 10px 10px", "margin: 10px 10px 10px 10px", "margin: 10"] 
+	}   
+}
+
